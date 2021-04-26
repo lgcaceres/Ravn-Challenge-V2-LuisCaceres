@@ -11,9 +11,7 @@ import './App.css'
 
 function App() {
 
-  const [selectedId, setSelectedId] = useState('cGVvcGxlOjE=');
-
-  
+  const [selectedId, setSelectedId] = useState('empty');
 
 
   return (
@@ -27,7 +25,7 @@ function App() {
             <SideBar setSelectedId={setSelectedId}/>
           </Col>
           <Col md={6}>
-            <Information  selectedId={selectedId}/>
+            {selectedId !== 'empty' && <Information  selectedId={selectedId}/>}
           </Col>
         </Row>
 
