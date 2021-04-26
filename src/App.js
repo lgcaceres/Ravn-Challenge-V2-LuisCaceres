@@ -23,10 +23,10 @@ function App() {
           <Header />
         </Row>
         <Row>
-          <Col>
+          <Col md={3}>
             <SideBar setSelectedId={setSelectedId}/>
           </Col>
-          <Col>
+          <Col md={6}>
             <Information  selectedId={selectedId}/>
           </Col>
         </Row>

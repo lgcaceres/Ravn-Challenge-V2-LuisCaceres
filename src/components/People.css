@@ -10,8 +10,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 307px;
-    height: 37px;
+    width: 350px;
+    height: 69px;
     margin: 0;
     padding: 16px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -20,7 +20,7 @@
 .people__name{
     margin: 0;
     color: var(--text-dark);
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 700;
     line-height: normal;
 }
@@ -28,7 +28,7 @@
 .people__homeworld{
     margin: 0;
     color: var(--text-light);
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 400;
     line-height: normal;
 }

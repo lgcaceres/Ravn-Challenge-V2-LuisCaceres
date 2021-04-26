@@ -6,9 +6,8 @@
 
 .data-cell{
     border-bottom: 1px solid var(--text-dark);
-    background-color: cornsilk;
     display: flex;
-    width: 375px;
+    width: 890px;
     height: 49px;
     justify-content: space-between;
     align-items: center;
