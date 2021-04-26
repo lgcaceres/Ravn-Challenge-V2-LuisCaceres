@@ -5,13 +5,14 @@
 }
 
 .people {
+    border-right: 1px solid var(--text-dark) ;
+    border-bottom: 1px solid var(--text-dark) ;
     display: flex;
     justify-content: space-between;
     width: 307px;
     height: 37px;
     margin: 0;
     padding: 16px;
-    background-color:skyblue;
     font-family: 'Source Sans Pro', sans-serif;
 }
 

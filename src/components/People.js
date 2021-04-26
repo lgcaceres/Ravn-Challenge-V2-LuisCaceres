@@ -43,18 +43,18 @@ const People = ({ide,setSelectedId}) => {
   const race = (data.person.species) ? data.person.species.name : 'Human';
 
     return(
-    <div className='people'>
-      <div>
-        <p className='people__name'>{data.person.name}</p>
-        <p className='people__homeworld'>{race} from {data.person.homeworld.name}</p>
-      </div>
+      
+        <div className='people'>
+          <div>
+            <p className='people__name'>{data.person.name}</p>
+            <p className='people__homeworld'>{race} from {data.person.homeworld.name}</p>
+          </div>
 
-      <div>
-        <button className='button' onClick={()=>onButton(ide.id)}>&gt;</button>
-      </div>
-
-        
-    </div>)
+          <div>
+            <button className='button' onClick={()=>onButton(ide.id)}>&gt;</button>
+          </div>
+        </div>
+    )
 
 }
 
