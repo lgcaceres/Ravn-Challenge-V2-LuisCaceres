@@ -11,9 +11,10 @@ It also shows details of the characters once clicked in its cells.
 	
 ## Technologies Used
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* React : 17.0
+* Apollo Client: 3.3.15
+* Graphql: 15.5.0
+* React Bootstrap: 1.5.2
 	
 ## Setup
 To run this project, install it locally using npm:
