@@ -1,22 +1,33 @@
 ## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
+* [Project Descrption](#general-info)
+* [Technologies Used](#technologies)
 * [Setup](#setup)
+* [Screenshots](#screenshots)
 
-## General info
-This project is simple Lorem ipsum dolor generator.
+## Project Description
+This is a React web application that allows the user to browse the [Star Wars GraphQL API](https://swapi-graphql.netlify.app/.netlify/functions/index). The API has a fiel called **allPeople** and it is loaded by the web appication using the [Apollo](https://www.apollographql.com/) GraphQL client.
+
+It also shows details of the characters once clicked in its cells.
 	
-## Technologies
+## Technologies Used
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* React : 17.0
+* Apollo Client: 3.3.15
+* Graphql: 15.5.0
+* React Bootstrap: 1.5.2
 	
 ## Setup
-To run this project, install it locally using npm:
+To run this project, first clone this repository. 
 
 ```
-$ cd ../lorem
+$ $ git clone [URL OF THIS REPOSITORY]
+```
+Then, go to its root directory and tun:
+```
 $ npm install
 $ npm start
 ```
+
+## Screenshots
+
+Once the web application is running. It shows the **allPeople** field of the [Star Wars GraphQL API](https://swapi-graphql.netlify.app/.netlify/functions/index). It shows a mesagge if it is loading.
