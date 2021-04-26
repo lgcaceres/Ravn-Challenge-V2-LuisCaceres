@@ -4,10 +4,12 @@
 * [Setup](#setup)
 * [Screenshots](#screenshots)
 
-## General info
-This project is simple Lorem ipsum dolor generator.
+## Project Description
+This is a React web application that allows the user to browse the [Star Wars GraphQL API](https://swapi-graphql.netlify.app/.netlify/functions/index). The API has a fiel called **allPeople** and it is loaded by the web appication using the [Apollo](https://www.apollographql.com/) GraphQL client.
+
+It also shows details of the characters once clicked in its cells.
 	
-## Technologies
+## Technologies Used
 Project is created with:
 * Lorem version: 12.3
 * Ipsum version: 2.33
