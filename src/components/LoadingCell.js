@@ -1,11 +1,14 @@
 import React from 'react'
 import './LoadingCell.css'
+import {Spinner} from 'react-bootstrap'
 
 const LoadingCell = ()=>{
     return(
         <div className='load'>
-            <div>Loading</div>
+            <Spinner animation="border" size="sm" role="status"/>
+            <div >Loading</div>
         </div>
+        
     )
 }
 
