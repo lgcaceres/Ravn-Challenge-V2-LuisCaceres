@@ -20,7 +20,7 @@ Project is created with:
 To run this project, first clone this repository. 
 
 ```
-$ $ git clone [URL OF THIS REPOSITORY]
+$ git clone [URL OF THIS REPOSITORY]
 ```
 Then, go to its root directory and run:
 ```
@@ -30,7 +30,7 @@ $ npm start
 
 ## Screenshots
 
-Once the web application is running. It shows the **allPeople** field of the [Star Wars GraphQL API](https://swapi-graphql.netlify.app/.netlify/functions/index). It shows a mesagge if it is loading.
+Once the web application is running. It shows the **allPeople** field data of the [Star Wars GraphQL API](https://swapi-graphql.netlify.app/.netlify/functions/index). It shows a mesagge if it is loading.
 
 ![Loading Images](Images/Loading.png)
 
@@ -40,8 +40,8 @@ If something is wrong, it shows a notification that the query has failed.
 
 Once any character's cell is clicked, the app loads more details about it.
 
-![Loading Info](Images/LoadingInfo)
+![Loading Info](Images/LoadingInfo.png)
 
-When it finished loading it shows more info about the character selected. 
+When the app finished loading data, it shows more info about the character selected. 
 
 ![Character Info](Images/Info.png)
