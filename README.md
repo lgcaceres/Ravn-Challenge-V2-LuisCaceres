@@ -1,7 +1,8 @@
 ## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
+* [Project Descrption](#general-info)
+* [Technologies Used](#technologies)
 * [Setup](#setup)
+* [Screenshots](#screenshots)
 
 ## General info
 This project is simple Lorem ipsum dolor generator.
@@ -20,3 +21,7 @@ $ cd ../lorem
 $ npm install
 $ npm start
 ```
+
+## Screenshots
+
+Here images
