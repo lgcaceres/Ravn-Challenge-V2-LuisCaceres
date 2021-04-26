@@ -1,0 +1,26 @@
+
+
+:root {
+    --ravn-black : #121212;
+    --text-enphasis : #EC5757;
+    --text-head: #F2F2F2;
+}
+
+.head {
+    display: flex;
+    height: 52px;
+    width: 100%;
+    background-color: var(--ravn-black);
+    margin:0;
+    align-items: center;
+    
+}
+
+.head p{
+    
+    margin-left: 33px;
+    color: var(--text-head);
+    size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}

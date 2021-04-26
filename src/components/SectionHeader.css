@@ -1,0 +1,21 @@
+:root{
+    --text-dark : #333333;
+    --text-size : 17px;
+}
+
+.section {
+    background-color: steelblue;
+    width: 375px;
+    height: 60px;
+    margin: 0;
+    display: flex;
+}
+
+.header{
+    font-family: 'Source Sans Pro', sans-serif;
+    size: var(--text-size);
+    color: var(--text-dark);
+    font-weight: 700;
+    text-align: left;
+    margin: 32px 16px 8px 16px;
+}

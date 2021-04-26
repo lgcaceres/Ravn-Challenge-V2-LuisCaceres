@@ -1,0 +1,29 @@
+:root{
+    --text-dark : #333333;
+    --text-light : #828282;
+    --text-size : 17px;
+}
+
+.data-cell{
+    background-color: cornsilk;
+    display: flex;
+    width: 375px;
+    height: 49px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.label, .value{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    size: var(--text-size);
+}
+.label{
+    color: var(--text-light);
+}
+.value{
+    color: var(--text-dark);
+
+}

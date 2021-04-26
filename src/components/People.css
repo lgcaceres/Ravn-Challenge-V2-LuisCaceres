@@ -1,0 +1,32 @@
+:root{
+    --bg-color: #FFFFFF;
+    --text-dark : #333333;
+    --text-light : #828282;
+}
+
+.people {
+    display: flex;
+    justify-content: space-between;
+    width: 307px;
+    height: 37px;
+    margin: 0;
+    padding: 16px;
+    background-color:skyblue;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.people__name{
+    margin: 0;
+    color: var(--text-dark);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.people__homeworld{
+    margin: 0;
+    color: var(--text-light);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
