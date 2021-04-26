@@ -22,7 +22,7 @@ To run this project, first clone this repository.
 ```
 $ $ git clone [URL OF THIS REPOSITORY]
 ```
-Then, go to its root directory and tun:
+Then, go to its root directory and run:
 ```
 $ npm install
 $ npm start
@@ -31,3 +31,5 @@ $ npm start
 ## Screenshots
 
 Once the web application is running. It shows the **allPeople** field of the [Star Wars GraphQL API](https://swapi-graphql.netlify.app/.netlify/functions/index). It shows a mesagge if it is loading.
+
+
