@@ -1,5 +1,4 @@
 import React from 'react'
-
 import NoticeCell from './NoticeCell'
 import LoadingCell from './LoadingCell'
 
@@ -34,7 +33,7 @@ const People = ({ide,setSelectedId}) => {
   const {loading, error, data} = useQuery(NOMBRES,{variables:{id}});
 
   if(loading) return (<LoadingCell/>)
-    if(error) return (<NoticeCell/>)
+  if(error) return (<NoticeCell/>)
   
   const onButton=(id)=>{
     setSelectedId(id);

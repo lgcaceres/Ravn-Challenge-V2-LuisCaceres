@@ -32,4 +32,16 @@ $ npm start
 
 Once the web application is running. It shows the **allPeople** field of the [Star Wars GraphQL API](https://swapi-graphql.netlify.app/.netlify/functions/index). It shows a mesagge if it is loading.
 
+![Loading Images](Images/Loading.png)
 
+If something is wrong, it shows a notification that the query has failed.
+
+![Failed Loading](Images/Failed.png)
+
+Once any character's cell is clicked, the app loads more details about it.
+
+![Loading Info](Images/LoadingInfo)
+
+When it finished loading it shows more info about the character selected. 
+
+![Character Info](Images/Info.png)
