@@ -32,7 +32,7 @@ const SideBar = ({setSelectedId}) => {
 
 
     return(
-        <div>
+        <div className='side-bar'>
             {data.allPeople.people.map((people,id)=>(
             <People className='people' key={id} ide={people} setSelectedId={setSelectedId}/>
       ))}
