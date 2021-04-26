@@ -50,7 +50,7 @@ const People = ({ide,setSelectedId}) => {
       </div>
 
       <div>
-        <button onClick={()=>onButton(ide.id)}>&lt;</button>
+        <button className='button' onClick={()=>onButton(ide.id)}>&gt;</button>
       </div>
 
         

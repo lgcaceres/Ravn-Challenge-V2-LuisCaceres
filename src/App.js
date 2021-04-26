@@ -11,7 +11,7 @@ import './App.css'
 
 function App() {
 
-  const [selectedId, setSelectedId] = useState('empty');
+  const [selectedId, setSelectedId] = useState('cGVvcGxlOjE=');
 
   
 
@@ -19,11 +19,16 @@ function App() {
   return (
     <div >
       <Container>
-      <Header />
-        
-        {selectedId !== 'empty' && <Information className='information' selectedId={selectedId}/>}
-        
-        <SideBar setSelectedId={setSelectedId}/>
+        <Row>
+          <Header />
+        </Row>
+        <Row>
+          
+          <SideBar setSelectedId={setSelectedId}/>
+          
+          <Information  selectedId={selectedId}/>
+          
+        </Row>
       </Container>
         
       </div>
