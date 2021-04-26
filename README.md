@@ -17,10 +17,13 @@ Project is created with:
 * React Bootstrap: 1.5.2
 	
 ## Setup
-To run this project, install it locally using npm:
+To run this project, first clone this repository. 
 
 ```
-$ cd ../lorem
+$ $ git clone [URL OF THIS REPOSITORY]
+```
+Then, go to its root directory and tun:
+```
 $ npm install
 $ npm start
 ```
