@@ -50,7 +50,7 @@ const People = ({ide,setSelectedId}) => {
             <p className='people__homeworld'>{race} from {data.person.homeworld.name}</p>
           </div>
 
-          <div>
+          <div >
             <button className='button' onClick={()=>onButton(ide.id)}>&gt;</button>
           </div>
         </div>

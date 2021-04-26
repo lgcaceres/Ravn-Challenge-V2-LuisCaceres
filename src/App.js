@@ -18,17 +18,19 @@ function App() {
 
   return (
     <div >
-      <Container>
+      <Container fluid>
         <Row>
           <Header />
         </Row>
         <Row>
-          
-          <SideBar setSelectedId={setSelectedId}/>
-          
-          <Information  selectedId={selectedId}/>
-          
+          <Col>
+            <SideBar setSelectedId={setSelectedId}/>
+          </Col>
+          <Col>
+            <Information  selectedId={selectedId}/>
+          </Col>
         </Row>
+
       </Container>
         
       </div>

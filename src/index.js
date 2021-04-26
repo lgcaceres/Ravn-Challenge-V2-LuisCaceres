@@ -8,6 +8,8 @@ import {
 } from '@apollo/client';
 import App from './App';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const client = new ApolloClient({
   cache: new InMemoryCache(),
   link: new HttpLink({

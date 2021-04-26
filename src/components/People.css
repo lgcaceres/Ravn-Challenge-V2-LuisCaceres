@@ -5,10 +5,11 @@
 }
 
 .people {
-    border-right: 1px solid var(--text-dark) ;
-    border-bottom: 1px solid var(--text-dark) ;
+    border-right: 1px solid var(--text-light) ;
+    border-bottom: 1px solid var(--text-light) ;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 307px;
     height: 37px;
     margin: 0;
@@ -33,6 +34,8 @@
 }
 
 .button{
+    font-size: 16px;
+    font-weight: bold;
     background:none;
     border: none;
 }
