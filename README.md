@@ -30,4 +30,4 @@ $ npm start
 
 ## Screenshots
 
-Here images
+Once the web application is running. It shows the **allPeople** field of the [Star Wars GraphQL API](https://swapi-graphql.netlify.app/.netlify/functions/index). It shows a mesagge if it is loading.
