@@ -7,7 +7,9 @@
 ## Project Description
 This is a React web application that allows the user to browse the [Star Wars GraphQL API](https://swapi-graphql.netlify.app/.netlify/functions/index). The API has a fiel called **allPeople** and it is loaded by the web appication using the [Apollo](https://www.apollographql.com/) GraphQL client.
 
-It also shows details of the characters once clicked in its cells.
+ React Boostrap was also used to distribute componets, and to display the [Spinner](https://react-bootstrap.github.io/components/spinners/) in the Loading component.
+
+ It also shows details of the characters once clicked in its cells.
 	
 ## Technologies Used
 Project is created with:
