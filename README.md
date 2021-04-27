@@ -1,5 +1,5 @@
 ## Table of contents
-* [Project Descrption](#general-info)
+* [Project Description](#general-info)
 * [Technologies Used](#technologies)
 * [Setup](#setup)
 * [Screenshots](#screenshots)
